@@ -11,6 +11,7 @@ const Home = () => {
       <Offer />
       <Price />
       <Map />
+      <hr />
       <Footer />
     </div>
   );

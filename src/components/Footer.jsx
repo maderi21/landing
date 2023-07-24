@@ -4,14 +4,17 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark py-5 mt-5">
-      <div className="container">
-        <div className="row text-white g-4">
+    <footer className="py-5 mt-5 sticky-top">
+      <div className="container ">
+        <div className="row text-info g-4">
           <div className="col-md-6 col-lg-3">
-            <a href="index.html" className="text-decoration-none text-white">
+            <a
+              href="index.html"
+              className="text-decoration-none text-info fw-bold"
+            >
               Gabriela
             </a>
-            <p className="text-white mt-3">
+            <p className="text-info mt-3">
               Unlocking the Beauty Within: Experience the Magic of Our
               Hairstylists' Expert Hands! From Classic Cuts to Trendsetting
               Transformations, We Craft Hair Masterpieces Tailored Just for You.
@@ -50,7 +53,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.facebook.com/profile.php?id=1617340063"
-                    className=" fs-4 me-4 text-white text-decoration-none"
+                    className=" fs-4 me-4 text-info text-decoration-none"
                   >
                     <BsFacebook />
                   </a>
@@ -60,7 +63,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.instagram.com/"
-                    className="fs-4 me-4 text-white text-decoration-none"
+                    className="fs-4 me-4 text-info text-decoration-none"
                   >
                     <BsInstagram />
                   </a>
@@ -70,7 +73,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"
-                    className=" fs-4 me-4 text-white text-decoration-none"
+                    className=" fs-4 me-4 text-info text-decoration-none"
                   >
                     <BsTwitter />
                   </a>

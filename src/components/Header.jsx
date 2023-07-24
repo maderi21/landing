@@ -1,4 +1,5 @@
 import hero from "../images/hero-image.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,10 +14,12 @@ const Header = () => {
               Get your hair done by professional and experience something new
               and exciting
             </p>
-            <button className="btn btn bg-secondary mx-2 p-3">
+            <Link className="btn btn bg-secondary mx-2 p-3" to="/book">
               Book a date
-            </button>
-            <button className="btn btn bg-dark mx-2 p-3">Explore more</button>
+            </Link>
+            <Link to="/about" className="btn btn bg-dark mx-2 p-3">
+              Explore more
+            </Link>
           </div>
           <div className="col-md">
             <img className="img-fluid p-5" src={hero} alt="hero" />

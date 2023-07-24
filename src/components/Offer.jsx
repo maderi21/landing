@@ -1,6 +1,7 @@
 import care1 from "../images/offer1.png";
 import care2 from "../images/offer2.png";
 import care3 from "../images/offer3.png";
+import { Link } from "react-router-dom";
 
 const Offer = () => {
   return (
@@ -32,7 +33,9 @@ const Offer = () => {
           </div>
         </div>
         <div className="container d-flex justify-content-center my-5">
-          <button className="btn btn-secondary p-3">Reserve your seat</button>
+          <Link className="btn btn-secondary p-3" to="/book">
+            Reserve your seat
+          </Link>
         </div>
       </div>
     </div>

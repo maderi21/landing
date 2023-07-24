@@ -1,6 +1,7 @@
 import p1 from "../images/p1.png";
 import p2 from "../images/p2.png";
 import p3 from "../images/p3.png";
+import { Link } from "react-router-dom";
 
 const Price = () => {
   return (
@@ -25,7 +26,9 @@ const Price = () => {
           </div>
         </div>
         <div className="container d-flex justify-content-center my-5">
-          <button className="btn btn-dark p-3">Book now</button>
+          <Link className="btn btn-dark p-3" to="/book">
+            Book now
+          </Link>
         </div>
       </div>
     </div>
