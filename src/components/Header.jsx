@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <section className="p-5">
       <div className="container">
-        <div className="row align-items-center justify-content-between">
+        <div className="row align-items-center justify-content-between g-4">
           <div className="col-md">
-            <h1 className="display-5">
+            <h1 className="display-2">
               One haircut will not suit to everyone.
             </h1>
             <p>
